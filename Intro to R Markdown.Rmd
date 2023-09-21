@@ -1,0 +1,55 @@
+---
+title: "In class demo - R markdown - week 3"
+author: "Aurora Beqiri"
+date: "Sep 21, 2023"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+## This is my level 1 heading
+
+### This is my level 2 heading
+
+#### This is my level 3 heading (4# and then space)
+
+This is my main text. POLI3148 is cool!!!
+
+```{r}
+1+1
+log(50)
+```
+
+## Output figures
+
+```{r}
+plot(1:10, 1:10)
+
+```
+
+## Display data
+
+```{r}
+cars
+```
+
+## In-line R code
+
+Scientific research shows that 1+1 =
+
+```{}
+```
+
+```{r}
+#install.packages("tinytex")
+
+#tinytex::install_tinytex()
+
+```
